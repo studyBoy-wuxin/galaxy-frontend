@@ -1,0 +1,120 @@
+.service_box{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .swiper_box{
+    width: 90%;
+    height: 280px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-top: 10px;
+    .swiper{
+      height: 100%;
+      border-radius: 20px;
+      .swiper_item{
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+        height: 100%;
+        .image{
+          height: 100%;
+          border-radius: 20px;
+        }
+      }
+    }
+
+  }
+  .middle_service{
+    width: 90%;
+    height:15%;
+    padding: 10px;
+    .middle_service_view{
+      display: flex;
+      flex-direction: row;
+
+      .middle_service_item{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 120px;
+        margin:0 10px;
+        border-radius: 20px;
+      }
+    }
+
+  }
+  .daliyInfo{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 280px;
+    padding: 0 20px;
+    .swiper{
+      display: flex;
+      justify-content: center;
+      margin-top: 5px;
+      width: 100%;
+      height: 100%;
+      .SwiperItem{
+        height: 100%;
+        #video{
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+    }
+  }
+  .atList{
+    width: 100%;
+  }
+
+  .bottom{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .article{
+      height: 100px;
+      width: 90%;
+      padding: 10px 10px;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid rgb(236,242,248);
+
+      .left{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 400px;
+        justify-content: center;
+
+        .title{
+          font-size: 26px;
+          display: -webkit-box;
+          word-break: break-all;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+      .right{
+        Image{
+          width: 200px;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .font{
+    font-weight: 700;
+    font-size: 35px;
+  }
+}

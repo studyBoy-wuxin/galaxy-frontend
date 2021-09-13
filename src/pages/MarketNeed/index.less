@@ -1,0 +1,105 @@
+.marketNeed_box{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .scrollView_View{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    white-space: nowrap;
+    flex-direction: row;
+    background-color: #f4f4f4;
+    border-radius: 6px;
+    .name{
+      border-radius: 6px;
+      padding: 0 34px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid skyblue;
+    }
+  }
+  .chart_box{
+    padding: 40px 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    .more{
+      display: flex;
+      justify-content: center;
+      width: 15%;
+      height: 80px;
+      font-size: 20px;
+      color: black;
+      :hover{
+        color: red;
+      }
+    }
+    .canvas{
+      height: 400px;
+      width: 100%;
+    }
+  }
+  .track_box{
+    width: 95%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    margin-top: 30px;
+    .left{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 53%;
+      Text{
+        padding: 10px;
+      }
+    }
+    .right{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      flex-direction: row;
+      height: 100%;
+      View{
+        //border: 1px solid black;
+        width: 180px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+        border-radius: 10px;
+        font-size: 30px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    }
+    .more{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      width: 180px;
+      height: 30px;
+      font-size: 25px;
+      margin: 10px;
+      Text{
+        white-space: nowrap;
+        font-size: 20px;
+      }
+    }
+  }
+
+  .active{
+    background-color: rgb(125,125,135);
+  }
+}
